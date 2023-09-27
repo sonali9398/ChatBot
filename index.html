@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Mooli&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined">mode_comments</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>ChatBot</h2>
+            <span class="material-symbols-outlined">close</span>
+        </header>
+        
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+                <p>
+                    Hi, How can I help you?
+                </p>
+            </li>
+            <!-- <li class="chat outgoing">
+                <span class="material-symbols-outlined"></span>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </li> -->
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message.." spellcheck="false" ></textarea>
+            <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+
+    </div>
+
+</body>
+</html>
